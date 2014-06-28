@@ -1,0 +1,134 @@
+.container
+  header.margin20.nrm.nlm
+    .clearfix
+      .place-right
+        form
+          .input-control.text.size6.margin20.nrm
+            input name="q" placeholder="Search..." type="text" 
+              button.btn-search
+      a.place-left href="#" title="" 
+        h1 MIPU's Dessert Kios
+    .main-menu-wrapper
+      ul.horizontal-menu.nlm
+        li
+          a href="#"  Menu
+        li
+          a href="#"  sports
+        li
+          a href="#"  entertainment
+        li
+          a href="#"  money
+        li
+          a href="#"  autos
+        li
+          a href="#"  living
+        li
+          a href="#"  health
+        li.place-right
+          a.dropdown-toggle href="#"  options
+          ul.dropdown-menu.place-right data-show="hover" 
+            li
+              a href="#"  Go to Classic MSN
+            li
+              a href="#"  MSN Worldwide
+  .main-content.clearfix
+    .tile-area.no-padding.clearfix
+      .tile-group.no-margin.no-padding.clearfix style=("width: 100%") 
+        .tile.double.quadro-vertical.bg-gray.ol-transparent style=("float: right; ") 
+          .tile-content
+            .brand
+              span.label.fg-white ads here...
+        .tile.quadro.double-vertical.ol-transparent
+          .tile-content
+            .carousel data-controls="false" data-height="100%" data-role="carousel" data-width="100%" style=("width: 100%; height: 100%;") 
+              .slide style=("left: -511px;") 
+                - image_tag("img1.jpg")
+              .slide style=("left: 0px; display: block;") 
+                - image_tag("img2.jpg") 
+              .slide style=("left: -511px; display: block;") 
+                - image_tag("img1.jpg")
+              .markers.default
+                ul
+                  li
+                    a data-num="0" href="javascript:void(0)" 
+                  li.active
+                    a data-num="1" href="javascript:void(0)" 
+                  li
+                    a data-num="2" href="javascript:void(0)" 
+        .tile.bg-lightBlue.ol-transparent
+          .tile-content.icon
+            span.icon-windows
+        .tile.bg-orange.ol-transparent
+          .tile-content.icon
+            span.icon-music
+        .tile.ol-transparent.bg-teal
+          .tile-content.icon
+            span.icon-facebook
+        .tile.ol-transparent.bg-green
+          .tile-content.icon
+            span.icon-twitter
+        .tile.triple.double-vertical.ol-transparent.bg-white
+          .tile-content
+            .panel.no-border
+              .panel-header.bg-darkRed.fg-white news
+              .panel-content.fg-dark.nlp.nrp
+                img.place-left.margin10.nlm.ntm.size2 src="images/jeki_chan.jpg" 
+                  strong Lorem Ipsum
+                  | is simply dummy text of the printing and typesetting industry.
+                  | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  | Lorem Ipsum has been the industry's standard dummy text.
+        .tile.triple.double-vertical.ol-transparent.bg-white
+          .tile-content
+            .panel.no-border
+              .panel-header.bg-pink.fg-white entertainment
+              .panel-content.fg-dark.nlp.nrp
+                img.place-left.margin10.nlm.ntm.size2 src="images/jek_vorobey.jpg" 
+                  strong Lorem Ipsum
+                  | is simply dummy text of the printing and typesetting industry.
+                  | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  | Lorem Ipsum has been the industry's standard dummy text.
+      /! End first group
+      .tile-group.no-margin.no-padding.clearfix style=("width: 100%") 
+        .tile.double.ol-transparent
+        .tile.double.ol-transparent
+        .tile.double.ol-transparent
+        .tile.double.ol-transparent
+      .tile-group.no-margin.no-padding1.clearfix style=("width: 100%;") 
+        a href="#" 
+          span.tile-group-title.fg-orange
+            | NEWS
+            span.icon-arrow-right-5
+        .tile.quadro.double-vertical.ol-transparent
+        .tile.double.ol-transparent
+        .tile.ol-transparent
+        .tile.ol-transparent
+        .tile.ol-transparent
+        .tile.ol-transparent
+        .tile.double.ol-transparent
+      .tile-group.no-margin.no-padding1.clearfix style=("width: 100%;") 
+        a href="#" 
+          span.tile-group-title.fg-cobalt
+            | SPORT
+            span.icon-arrow-right-5
+        .tile.quadro.double-vertical.ol-transparent
+        .tile.double.ol-transparent
+        .tile.ol-transparent
+        .tile.ol-transparent
+        .tile.ol-transparent
+        .tile.ol-transparent
+        .tile.double.ol-transparent
+  /! End of tiles
+  footer
+    .bottom-menu-wrapper
+      ul.horizontal-menu.compact
+        li © 2014 Metro UI CSS
+        li
+          a href="#"  Privacy
+        li
+          a href="#"  Legal
+        li
+          a href="#"  Advertise
+        li
+          a href="#"  Help
+        li
+          a href="#"  Feedback
